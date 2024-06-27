@@ -139,7 +139,7 @@ const Maps = () => {
               attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
             />
             <Marker position={position}>
-              <Popup>Your location</Popup>
+              <Popup>Your location:</Popup>
             </Marker>
             {hospitals.map((hospital, index) => (
               <Marker key={index} position={[hospital.latitude, hospital.longitude]}>
