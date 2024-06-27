@@ -15,7 +15,7 @@ const FrontPage = () => {
 
             {/* text */}
             <div>
-                <div className='font-bold text-white text-center text-[40px] mt-[-80px] mb-[10px]'>Arogya-Marg</div>
+                <div className='font-bold text-white text-center text-[40px] mt-[-80px] mb-[10px]'>Arogya-marg</div>
 
                 <div className='z-auto w-[669px] h-[25px] top-[686px] left-[386px] font-[500] text-[22px] leading-[25px] text-white text-center mb-[30px]'>
                     System for Enhanced Healthcare Assistance & Telemedicine
