@@ -1,0 +1,157 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+    font-family: 'Poppins', sans-serif;
+    overflow:hidden;
+}
+
+.loading span {
+    animation-name: dots;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.loading span:nth-child(2) {
+    animation-delay: 0.4s;
+}
+
+.loading span:nth-child(3) {
+    animation-delay: 0.8s;
+}
+
+@keyframes dots {
+    50% {
+        opacity: 0;
+        transform: scale(0.7) translateY(10px);
+    }
+}
+
+.selected,
+.notselected {
+    width: 200px;
+    background-color: #DEF0FF;
+    padding: 8px 0px;
+    margin: 16px 80px;
+    border-radius: 10px;
+}
+
+.selected {
+    color: white;
+    background-color: #0038A5;
+}
+
+.TranslateElement {
+    position: absolute;
+    top: 10px;
+    left: 70rem;
+}
+
+.TranslateElement select {
+    padding: 10px;
+    border-radius:6px;
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd{
+    display: none;
+    position: absolute;
+}
+
+
+/* drag drop files */
+.dropzone {
+    margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  height: 400px;
+  border: 5px dashed rgb(117, 112, 112);
+  padding: 2rem;
+}
+
+.active {
+  background-color: #5f5959;
+}
+.uploads{
+    margin-top: 100px;
+}
+.uploads button {
+  margin: 1rem;
+  font-size: medium;
+  background-color: #d9e7fd;
+  border-radius: 20px;
+  padding: 10px 40px;
+}
+
+
+.list-item {
+  display: flex;
+  padding: 0;
+  margin: 8px 0;
+  min-width: 300px;
+  font-size: 22px;
+  background-color: #d4d2d2;
+  cursor: grab;
+  border-radius: 10px;
+}
+
+.list-item > h3 {
+  padding: 10px;
+  margin: 0;
+}
+
+.list-item > span {
+  margin-right: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  border-right: 2px solid white;
+  padding: 10px;
+  padding-right: 16px;
+}
+
+.next-position {
+  border: 2px solid #34d44f;
+  opacity: 0.2;
+}
+
+/* otp css */
+.forgot_body{
+  text-align: center;
+}
+.forgot_head{
+  font-size: 20px;
+  font-weight: bold;
+}
+.boxes_otp{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0px;
+}
+.input_otp{
+  background-color: #d9e7fd;
+  width: 50px;
+  aspect-ratio: 1/1;
+  border-radius: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.forgot_btn{
+  margin: 5px;
+  /* height: 50px; */
+}
+.timer{
+  margin: 20px 0px -10px;
+}
+.forgot_resend{
+  background: none;
+  /* color: rgba(255, 255, 255, 0.507); */
+  text-decoration: none;
+
+}
+.forgot_resend:hover{
+  color: #d9e7fd;
+}
