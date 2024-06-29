@@ -9,9 +9,9 @@ const CataractDoctor = () => {
     <div>
 
         {/* circle */}
-        <div className='bg-[#DEF0FF] w-[391px] h-[391px] top-[-123px] left-[-123px] fixed rounded-full'>
+        {/* <div className='bg-[#DEF0FF] w-[391px] h-[391px] top-[-123px] left-[-123px] fixed rounded-full'>
 
-        </div>
+        </div> */}
 
         {/* lanuage */}
         <div>
@@ -43,10 +43,10 @@ const CataractDoctor = () => {
 
 
     {/* concentric circles */}
-    <div className='bg-[#d9e7fd] w-[567.61px] h-[558px] top-[400px] left-[1053px] fixed rounded-full'>
+    {/* <div className='bg-[#d9e7fd] w-[567.61px] h-[558px] top-[400px] left-[1053px] fixed rounded-full'>
         <div className='bg-[#DEF0FF] w-[367.61px] h-[358px] top-[500px] left-[1153px] fixed rounded-full'></div>
     </div>
-    
+     */}
 </div>
   )
 }
