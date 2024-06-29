@@ -30,6 +30,7 @@ import HeartInputs from "./pages/HeartInputs";
 import Diabetes5 from "./pages/Diabetes5";
 import Diabetes6 from "./pages/Diabetes6";
 import Diabetes7 from "./pages/Diabetes7";
+import Diabetes8 from "./pages/Diabetes8";
 import CataractImage from "./pages/CataractImage";
 import CataractDoctor from "./pages/CataractDoctor";
 import Emergency from "./pages/Emergency";
@@ -72,6 +73,7 @@ function App() {
         <Route path="/Diabetes5" element={<Diabetes5/>} />
         <Route path="/Diabetes6" element={<Diabetes6/>} />
         <Route path="/Diabetes7" element={<Diabetes7/>} />
+        <Route path="/Diabetes8" element={<Diabetes8/>} />
         <Route path="/body" element={<Bh1/>} />
         <Route path="/bodyProblem" element={<Bh2/>} />
         <Route path="/bodyRecord" element={<Bh3/>} />

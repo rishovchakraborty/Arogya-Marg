@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 const DiabetesDoctor = () => {
   return (
     <div className='w-[100vw] h-[100vh] flex flex-col justify-center items-center bg-all'>
-        <div className='font-[600] text-[25px]'>You Do not have any Diabetes disease </div>
+        <div className='font-[600] text-[25px]'>You have Diabetes disease </div>
         {/* circle, language */}
         <div>
 

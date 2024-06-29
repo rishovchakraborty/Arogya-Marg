@@ -21,16 +21,15 @@ const Diabetes6 = () => {
     }
   }
   return (
-    <div>
-    <Navbar url="/Diabetes5" loginUser="true" title="Diabetes Checkup" />
-
-    <div className="w-[100vw]  flex flex-col items-center text-center font-bold bg-bgall h-[calc(100vh-100px)]">
+    <div className="w-full h-full">
+    <Navbar url="/concern1" loginUser="true" title="Diabetes Checkup" />
+    <div className="w-full flex flex-col items-center text-center font-bold bg-bgall h-[calc(100vh-100px)]">
       <div className="mt-24">
-        <img src={Diabetes} />
+        <img className='h-40px'  src={Diabetes} alt="Diabetes Illustration" />
       </div>
 
-      <div className="w-[1440px] mt-[60px] top-[160px] flex flex-col justify-center items-center">
-        <div className="">
+      <div className="w-full mt-[60px] flex flex-col justify-center items-center">
+        <div>
           <span className="mr-2 font-[600] text-[18px]">
             Enter Skin Thickness
           </span>
