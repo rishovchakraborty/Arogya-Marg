@@ -1,5 +1,5 @@
 import Navbar from '../components/Navbar';
-import loginSuccessPic from '../assets/LoginSuccessPic.svg';
+import loginSuccessPic from '../assets/LoginSuccessPic New.svg';
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 function LoginSuccess() {

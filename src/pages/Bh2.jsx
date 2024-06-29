@@ -62,7 +62,7 @@ const Bh2 = () => {
 
       {/* to see btns selected */}
       <div className='w-[100vw] flex flex-col text-center mt-10 h-[20vh]'>
-        <p className='text-[#0038A5]'>Selected Problems:</p>
+        <p className='text-[#228b22]'>Selected Problems:</p>
         <ul className='flex mx-auto my-4'>
           {selectedButtons.map((button, index) => (
             <li className=' mx-2 ' key={index}>{button}</li>

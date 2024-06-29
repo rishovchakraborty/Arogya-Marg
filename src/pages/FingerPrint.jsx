@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import { Link } from 'react-router-dom'
-import fingerPrintPic from '../assets/FingerPrintPic.svg';
+import fingerPrintPic from '../assets/FingerPrintPic New.svg';
 
 const FingerPrint = () => {
   return (

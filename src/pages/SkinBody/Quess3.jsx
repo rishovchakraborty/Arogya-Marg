@@ -23,9 +23,9 @@ const Quess3 = () => {
         
         {/* questions */}
         <div className='w-1/5 text-center pt-10  border-r-4 border-gray-300 h-[calc(100vh-100px)]'>
-            <div className='bg-[#D1E8FF] py-3 text-gray-600'>Question 1</div>
-            <div className='bg-[#D1E8FF]  py-3 text-gray-600'>Question 2</div>
-            <div className='bg-[#D1E8FF]   py-3 text-gray-600'>Question 3</div>
+            <div className='bg-[#a1ec8a] py-3 text-gray-600'>Question 1</div>
+            <div className='bg-[#a1ec8a]  py-3 text-gray-600'>Question 2</div>
+            <div className='bg-[#a1ec8a]   py-3 text-gray-600'>Question 3</div>
             <div className=' py-3 text-gray-600'>Question 4
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import { Link } from 'react-router-dom'
-import irisScanPic from '../assets/IrisScanPic.svg';
+import irisScanPic from '../assets/IrisScanPic New.svg';
 import PicUser from '../components/PicUser';
 
 const IrisScan = () => {

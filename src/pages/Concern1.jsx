@@ -1,11 +1,11 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import ConsultDoctor from '../assets/ConsultDoctor.svg';
-import general from '../assets/General.svg';
-import diabetes from '../assets/Diabetes.svg';
-import heart from '../assets/Heart.svg';
+import ConsultDoctor from '../assets/Consult Doctor new.svg';
+import general from '../assets/General New.svg';
+import diabetes from '../assets/Diabetes New.svg';
+import heart from '../assets/Heart New.svg';
 import CryptoJS from 'crypto-js';
-import cataract from '../assets/Cataract.svg';
+import cataract from '../assets/Cataract New.svg';
 import { Link } from 'react-router-dom';
 //import cryptoRandomString from 'crypto-random-string';
 const Concern1 = () => {

@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
-import bhc1 from "../assets/bhc1.svg";
-import bhc11 from "../assets/bhc11.svg";
-import bhc12 from "../assets/bhc12.svg";
-import bhc13 from "../assets/bhc13.svg";
+import bhc1 from "../assets/bhc1 New.svg";
+import bhc11 from "../assets/bhc11 New.svg";
+import bhc12 from "../assets/bhc12 New.svg";
+import bhc13 from "../assets/bhc13 New.svg";
 
 const Basichc1 = () => {
   return (

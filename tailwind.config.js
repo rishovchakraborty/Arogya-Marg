@@ -7,13 +7,13 @@ export default {
   theme: {
     extend: {
       colors:{
-        lightbg:"#648AFF",
-        bgcolor:'#6C92FF',
-        lightbg2:"#7294FF",
-        bluebtn:"#0038A5",
+        lightbg:"	#023020",
+        bgcolor:'#228B22',
+        lightbg2:"#E4D00A",
+        bluebtn:"#4c0c01",
         bgall:"#F2F9FF",
-        bgcircle:"#0038A5",
-        bginput:"#d9e7fd",
+        bgcircle:"#228b22",
+        bginput:"#a1ec8a",
       }
     },
   },

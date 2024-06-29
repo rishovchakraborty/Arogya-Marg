@@ -32,7 +32,7 @@
 .selected,
 .notselected {
     width: 200px;
-    background-color: #DEF0FF;
+    background-color: #a1ec8a;
     padding: 8px 0px;
     margin: 16px 80px;
     border-radius: 10px;
@@ -40,7 +40,7 @@
 
 .selected {
     color: white;
-    background-color: #0038A5;
+    background-color: #228b22;
 }
 
 .TranslateElement {
@@ -81,7 +81,7 @@
 .uploads button {
   margin: 1rem;
   font-size: medium;
-  background-color: #d9e7fd;
+  background-color: #b3fa9d;
   border-radius: 20px;
   padding: 10px 40px;
 }
@@ -131,7 +131,7 @@
   margin: 20px 0px;
 }
 .input_otp{
-  background-color: #d9e7fd;
+  background-color: #b3fa9d;
   width: 50px;
   aspect-ratio: 1/1;
   border-radius: 10px;
@@ -153,5 +153,5 @@
 
 }
 .forgot_resend:hover{
-  color: #d9e7fd;
+  color: #b3fa9d;
 }

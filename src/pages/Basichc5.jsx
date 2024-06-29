@@ -2,7 +2,7 @@ import React,{useState,useContext} from "react";
 import { Link } from "react-router-dom";
 import CryptoJS from 'crypto-js';
 import Navbar from "../components/Navbar";
-import HeartBeatImg from "../assets/HeartbeatImg.svg";
+import HeartBeatImg from "../assets/HeartbeatImg New.svg";
 //import cryptoRandomString from 'crypto-random-string';
 const Basichc5 = () => {
  // const secretKey=cryptoRandomString({length:64,type:'hex'});

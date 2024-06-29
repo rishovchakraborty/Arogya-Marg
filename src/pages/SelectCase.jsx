@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
-import emergency from '../assets/emergency.png';
-import consultDoctor from '../assets/consultDoctor.svg';
+import emergency from '../assets/Emergency new.svg';
+import consultDoctor from '../assets/Consult Doctor new.svg';
 import { Link } from 'react-router-dom';
 
 const SelectCase = () => {
